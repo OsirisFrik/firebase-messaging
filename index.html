@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase Messaging</title>
+  <style>
+    .container {
+      display: flex;
+    }
+
+    #editor, #log {
+      width: 600px;
+      height: 700px;
+      flex: 0.5 1 0%;
+    }
+
+
+    #editor {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <button id="start">Start</button>
+  <p>
+    token: <span id="token"></span>
+  </p>
+  <div class="container">
+    <div id="editor"></div>
+    <div id="log"></div>
+  </div>
+  <script src="./build/app.js"></script>
+</body>
+</html>
