@@ -1,5 +1,7 @@
 # FIREBASE MESSAGIN TESTER
 
+<img src="https://img.icons8.com/color/480/firebase.png" width="100px">
+
 Simple firebase messaging web testing, you can add your firebase config to test web push notifications!
 
 ## Usage
